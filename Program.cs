@@ -182,15 +182,39 @@ namespace newToCsharp
 
             //*****WHILE LOOPS*****
 
-            int index = 1;
+            //int index = 1;
 
-            while (index <= 5)
+            //while (index <= 5)
+            //{
+            //    Console.WriteLine(index);
+            //    index++;
+            //}
+
+            //2D ARRAYS
+
+            int[,] twoDimensionalArray =
             {
-                Console.WriteLine(index);
-                index++;
-            }
+                {7,5,5},
+                {4,8,9},
+                {1,3,4}
+            };
 
+            Console.WriteLine(twoDimensionalArray[1, 2]);
 
+            //var names = new string[2, 2, 3]
+            //{
+            //    {
+            //        {"Mubarak", "25 ans", "black eyes"},
+            //        {"Mubarak", "25 ans", "black eyes"}
+
+            //    },
+            //    {
+            //        {"Mubarak", "25 years", "black eyes"},
+            //        {"Mubarak", "25 ans", "black eyes"}
+            //    }
+            //};
+
+            //Console.WriteLine(names[1,0,1]);
 
 
 
@@ -206,6 +230,8 @@ namespace newToCsharp
             //Console.WriteLine(GetMax(7, 60));
 
             //Console.WriteLine(GetDay(08));
+
+            //Console.WriteLine(GetPow(3, -3));
 
             Console.ReadLine();
         }
@@ -241,7 +267,7 @@ namespace newToCsharp
         //    return result;
         //}
 
-          //*****SWITCH STATEMENTS*****
+        //*****SWITCH STATEMENTS*****
 
         //static string GetDay(int dayNum)
         //{
@@ -266,7 +292,7 @@ namespace newToCsharp
         //            break;
         //        case 5:
         //            dayName = "Friday";
-                    //break;
+        //break;
         //        case 6:
         //            dayName = "Saturday";
         //            break;
@@ -276,6 +302,22 @@ namespace newToCsharp
         //    }
 
         //    return dayName;
+        //}
+
+        //static int GetPow(int baseNum, int powNum)
+        //{
+        //    int absoluteBaseNum = Math.Abs(baseNum);
+        //    int absolutePowNum = Math.Abs(powNum);
+
+        //    int result = 1;
+
+        //    for (int i = 0; i < absolutePowNum; i++)
+        //    {
+        //        result *= absoluteBaseNum;
+        //    }
+
+        //    return result;
+
         //}
     }
 
