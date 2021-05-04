@@ -192,14 +192,14 @@ namespace newToCsharp
 
             //2D ARRAYS
 
-            int[,] twoDimensionalArray =
-            {
-                {7,5,5},
-                {4,8,9},
-                {1,3,4}
-            };
+            //int[,] twoDimensionalArray =
+            //{
+            //    {7,5,5},
+            //    {4,8,9},
+            //    {1,3,4}
+            //};
 
-            Console.WriteLine(twoDimensionalArray[1, 2]);
+            //Console.WriteLine(twoDimensionalArray[1, 2]);
 
             //var names = new string[2, 2, 3]
             //{
@@ -215,6 +215,78 @@ namespace newToCsharp
             //};
 
             //Console.WriteLine(names[1,0,1]);
+
+
+
+
+            //EXCEPTION HANDLING
+            //THERE ARE SEVERAL TYPES OF EXCEPTIONS.
+
+            //try
+            //{
+
+            //    Console.Write("Enter a number: ");
+            //    int firstNum = Convert.ToInt32(Console.ReadLine());
+
+            //    Console.Write("Enter a number: ");
+            //    int secondNum = Convert.ToInt32(Console.ReadLine());
+
+            //    Console.WriteLine("Answer: " + firstNum / secondNum);
+            //}
+            //catch(Exception e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //}
+
+
+            //*****CLASSES AND OBJECTS*****
+            //OBJECTS (AN OBJECT IS AN INSTANCE OF A CLASS)
+
+            //Book firstBook = new Book("Half of a yellow sun", "Chimamanda", 448);
+
+            //Console.WriteLine(firstBook.author);
+
+
+            //Student firstStudent = new Student("Mubarak", "Computing", "UoH", 3.55);
+            //Student secondStudent = new Student("Akinsola", "Business", "UoH", 3.55);
+            //Student thirdStudent = new Student("Bolaji", "Geography", "UoH", 3.47);
+
+            //Console.WriteLine(firstStudent.HasHonors());
+            //Console.WriteLine(secondStudent.HasHonors());
+            //Console.WriteLine(thirdStudent.HasHonors());
+
+
+            //SETTERS AND GETTERS FROM THE MOVIE CLASS
+
+            //Movie firstMovie = new Movie("Tears of the sun", "John Doe", "G");
+            //Movie secondMovie = new Movie("Blood Diamond", "Doe John", "PG-13");
+
+            //firstMovie.Rating = "R";
+
+            //Console.WriteLine(firstMovie.Rating);
+
+
+            //STATIC ATTRIBUTE "SONGCOUNT"
+
+            //Song firstSong = new Song("Ramen and OJ", "Joyner Lucas X Lil baby", 218);
+
+            //Console.WriteLine(Song.songCount);
+            //Song secondSong = new Song("Let you down", "NF", 212);
+
+            //Console.WriteLine(Song.songCount);
+
+
+            //INHERITANCE
+            //In this case "Chef" is the super class while the "Nigerianchef" is the child class
+
+            //Chef newChefOne = new Chef();
+
+            //newChefOne.MakeEgusi();
+
+            NigerianChef newChefTwo = new NigerianChef();
+
+            newChefTwo.MakeEgusi();
+            newChefTwo.MakePasta();
 
 
 
