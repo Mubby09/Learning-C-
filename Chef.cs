@@ -3,6 +3,7 @@ namespace newToCsharp
 {
     public class Chef
     {
+        //METHODS
         public void MakeChicken()
         {
             Console.WriteLine("I cooked some chicken");
